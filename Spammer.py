@@ -44,7 +44,7 @@ for i in range(spamNum):
         pg.typewrite('\n')
     time.sleep(relaxTime)
     if count==spamNum//2:
-        pg.alert('Relaxing for 3 sec.',title='RELAXING')
+        pg.alert('Relaxing for 3 sec to avoid timeout.',title='RELAXING')
         time.sleep(3)
     else:
         pass
